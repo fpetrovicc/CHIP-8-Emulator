@@ -3,4 +3,4 @@ project(chip8emu)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(chip8emu main.cpp)
+add_executable(chip8emu src/main.cpp src/chip8.cpp src/chip8.hpp)
