@@ -16,7 +16,7 @@ int main(int argc, char** argv)
     char const* romFilename = argv[3];
 
     Platform platform("CHIP-8 Emulator", VIDEO_WIDTH * videoScale, VIDEO_HEIGHT * videoScale, VIDEO_WIDTH, VIDEO_HEIGHT);
-    
+
     Chip8 chip8;
     chip8.LoadROM(romFilename);
 
