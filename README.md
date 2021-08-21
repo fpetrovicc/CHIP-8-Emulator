@@ -15,8 +15,8 @@ chip8emu.exe <Scale> <Delay> <ROM>
 
 ## Images
 
-![Initial Test](../chip8emu/img/inittest.png)
+![Initial Test](https://github.com/fpetrovicc/CHIP-8-Emulator/raw/main/img/inittest.png)
 
-![Initial Test](../chip8emu/img/opcodetest.png)
+![Opcode Test](https://github.com/fpetrovicc/CHIP-8-Emulator/raw/main/img/opcodetest.png)
 
-![Initial Test](../chip8emu/img/snake.png)
+![Snake](https://github.com/fpetrovicc/CHIP-8-Emulator/raw/main/img/snake.png)
