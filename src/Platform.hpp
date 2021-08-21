@@ -1,8 +1,22 @@
-//
-// Created by Filip on 21.8.2021..
-//
+#pragma once
 
-#ifndef CHIP8EMU_PLATFORM_HPP
-#define CHIP8EMU_PLATFORM_HPP
+#include <cstdint>
 
-#endif //CHIP8EMU_PLATFORM_HPP
+class SDL_Window;
+class SDL_Renderer;
+class SDL_Texture;
+
+class Platform
+        {
+        public:
+            Platform(char const* title, int windowWidth, int windowHeight, int textureWidth, int textureHeight);
+            ~Platform();
+
+            void Update(void const* buffer, int pitch);
+            bool ProcessInput(uint8_t* keys);
+
+        private:
+            SDL_Window* window{};
+            SDL_Renderer* renderer{};
+            SDL_Texture* texture{};
+        };
