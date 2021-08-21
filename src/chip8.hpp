@@ -20,7 +20,7 @@ class Chip8
         {
         public:
             Chip8();
-            void LoadROM(char* const filename);
+            void LoadROM(char const* filename);
             void Cycle();
 
             uint8_t keypad[KEY_COUNT]{};
